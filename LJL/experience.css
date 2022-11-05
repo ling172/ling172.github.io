@@ -1,0 +1,58 @@
+.experienceback{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;  
+    overflow: auto;
+    display: flex;    
+}
+
+.grade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 100%;
+    margin: 0 30px;
+}
+.grade-left, .grade-center{
+    height: 100%;
+    padding-right: 20px;
+
+}
+.grade h2{
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    text-indent: 3cm;
+    font-family: "標楷體";
+    color: #5e503f;
+    font-style: italic;
+}
+.grade .row{
+    width: 270px;
+    height: 360px;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.grade img{
+    width: 360px;
+    height: 270px;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.grade p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "標楷體";
+    color: #5e503f;
+    font-size: 18px;
+}
+
+

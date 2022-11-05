@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.skillback {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 500px;
+    width: 100%;
+    padding: 50px 10px 6px 80px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.skill-left, .skill-right{
+    width:50%;
+    height:100%;
+}
+.container {
+    width: 500px;
+    background-color: #FFFCF2;
+    border-radius: 20px;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px 0;
+    background-color: #FFFCF2;
+    color: white;
+}
+
+.skillname {
+    font-size: 25px;
+    text-indent: 1cm;
+    color: #415A77;
+}
+
+@keyframes container {
+    from {
+        background-color: #FFFCF2;
+        width: 10%;
+    }
+    to {
+        background-color: #98C1D9;
+    }
+}
+
+.html {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 60%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
+
+.python {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 30%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
+
+.css {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 45%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
+
+.ppt {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 70%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
+
+.java {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 45%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
+
+.word {
+    animation-name: container;
+    animation-duration: 9s;
+    width: 55%;
+    background-color: #98C1D9;
+    border-radius: 20px;
+}
