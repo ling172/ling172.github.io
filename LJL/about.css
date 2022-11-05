@@ -11,7 +11,7 @@ body {
 
 .m {
     background-color: #d2c9c1;
-    margin: -7.5cm 0cm 3cm 10.5cm;
+    margin: 50px;
     font-size: 25px;
     text-align: left;
     border-radius: 50px;
@@ -19,12 +19,15 @@ body {
     width: 800px;
     text-indent: 1cm;
     font-family: "標楷體";
+    display: flex;
 }
 
 .text {
     text-align: center;
     opacity: 0.3;
     font-family: "標楷體";
+    margin: 6.5cm 1cm 1cm -14cm;
+    float: left;
 }
 
 .text:hover {
@@ -63,4 +66,5 @@ body {
     height: 385px;
     width: 100%;
     border-radius: 30px;
+    display: flex;
 }
