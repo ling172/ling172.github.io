@@ -2,18 +2,20 @@
     background-color: rgba(255, 255, 255, 0.4);
     height: 100px;
     width: 50%;
-    margin: 0cm 5cm 0cm 8.5cm;
+    margin: 0 auto;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.icon {
-    object-position: center center;
-    object-fit: none;
-    width: 150px;
-    height: 100px;
-    margin-left: 40px;
+.contactback a{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
 }
-
 footer {
     text-align: center;
     background-color: #bcb8b1;
