@@ -22,12 +22,14 @@
 
 }
 .grade h2{
+    padding: 10px;
     width: 100%;
     height: 50px;
     font-size: 32px;
     text-indent: 3cm;
     font-family: "標楷體";
-    color: #5e503f;
+    color: #7f5539;
+    text-shadow: 9px 2px 5px #b08968;
     font-style: italic;
 }
 .grade .row{
@@ -55,4 +57,12 @@
     font-size: 18px;
 }
 
-
+.grade pre{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "標楷體";
+    color: #5e503f;
+    font-size: 18px;
+}

@@ -12,14 +12,17 @@
     display: flex;
     justify-content: center;
 }
+
 .skill-left, .skill-right{
     width:50%;
     height:100%;
 }
+
 .container {
     width: 500px;
     background-color: #FFFCF2;
     border-radius: 20px;
+    display: flex;
 }
 
 .skills {
@@ -47,7 +50,7 @@
 
 .html {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 60%;
     background-color: #98C1D9;
     border-radius: 20px;
@@ -55,7 +58,7 @@
 
 .python {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 30%;
     background-color: #98C1D9;
     border-radius: 20px;
@@ -63,7 +66,7 @@
 
 .css {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 45%;
     background-color: #98C1D9;
     border-radius: 20px;
@@ -71,7 +74,7 @@
 
 .ppt {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 70%;
     background-color: #98C1D9;
     border-radius: 20px;
@@ -79,7 +82,7 @@
 
 .java {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 45%;
     background-color: #98C1D9;
     border-radius: 20px;
@@ -87,7 +90,7 @@
 
 .word {
     animation-name: container;
-    animation-duration: 9s;
+    animation-duration: 10s;
     width: 55%;
     background-color: #98C1D9;
     border-radius: 20px;
